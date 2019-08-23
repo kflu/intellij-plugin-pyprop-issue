@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>pyprop.pyprop</id>
+    <name>pyprop</name>
+    <vendor email="fff@yourcompany.com" url="http://www.fff.com">fff</vendor>
+
+    <description>
+        foo bar
+        foo bar
+        foo bar
+        foo bar
+        foo bar
+        foo bar
+    </description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.all</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <PyKnownDecoratorProvider implementation="java.Foobar"></PyKnownDecoratorProvider>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
